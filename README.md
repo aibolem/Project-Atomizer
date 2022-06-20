@@ -6,7 +6,7 @@
 
 An Universal Solution to **Controlling** and **Manipulating** 3D Objects in **ElectronVisualized**. **iOS** and **Android**, as well as **micro:bit** versions are in development.
 
-### [Official Guide](https://electronvisual.org/extensions)
+### [Official Extensions Support Page](https://electronvisual.org/extensions)
 
 ---
 

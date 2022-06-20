@@ -1,5 +1,7 @@
 <img width="500" alt="Logo" src="logo/atomizer_logo.png">
 
+*A big shoutout to *Samar C.* for the name and the logo ideas*
+
 ---
 
 An Universal Solution to **Controlling** and **Manipulating** 3D Objects in **ElectronVisualized**. **iOS** and **Android**, as well as **micro:bit** versions are in development.

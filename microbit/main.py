@@ -120,20 +120,37 @@ def main_loop(state):
                 
                 
         if state == 'CAMERA' or state == 'OBJECT':
+            button = button_b
+            opp_button = button_a
             
+            if state == 'CAMERA':
+                button = button_b
+                opp_button = button_a
+            
+            elif state == 'OBJECT':
+                button = button_a
+                opp_button = button_b
+                
             if detection_mode == 'YAW':
                 reading_x = round(accelerometer.get_x())
                 _x_detection(reading_x)
                 
-                if button_b.was_pressed():
+                if button.was_pressed():
                     detection_mode = 'ELEVATOR'
+                    
+                if opp_button.was_pressed():
+                    state = 'INIT'
+                    
             
             if detection_mode == 'ELEVATOR':
                 reading_y = round(accelerometer.get_y())
                 _y_detection(reading_y)
                 
-                if button_b.was_pressed():
+                if button.was_pressed():
                     detection_mode = 'YAW'
+                
+                if opp_button.was_pressed():
+                    state = 'INIT'
                 
         sleep(10) # a 10 millisecond delay
 

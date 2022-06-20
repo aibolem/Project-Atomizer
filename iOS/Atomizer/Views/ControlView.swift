@@ -12,7 +12,26 @@ struct ControlView: View {
     @Binding var selectedControl: Controls
     
     var body: some View {
-        Text("Hello world!")
+        switch (selectedControl) {
+        case Controls.transform:
+            transformPage()
+        case Controls.camera:
+            cameraPage()
+        }
+    }
+    
+    private func transformPage() -> some View {
+        return (
+            Text("**Transform** Position")
+                .font(.largeTitle)
+        )
+    }
+    
+    private func cameraPage() -> some View {
+        return (
+            Text("**Camera** View")
+                .font(.largeTitle)
+        )
     }
 }
 

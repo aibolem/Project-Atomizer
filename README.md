@@ -1,6 +1,6 @@
 <img width="500" alt="Logo" src="logo/atomizer_logo.png">
 
-*A big shoutout to* ***Samar C.*** *for the name and the logo ideas*
+*A big shoutout to* ***Samar C.*** *for the name and logo ideas*
 
 ---
 

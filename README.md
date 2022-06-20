@@ -22,4 +22,4 @@ An Universal Solution to **Controlling** and **Manipulating** 3D Objects in **El
 2. Download the ```main.py``` file located in the ```microbit``` folder in the ```root``` directory, and open it using **Thonny**
 3. Navigate to the options, select intrepreter, and change the settings to use **MicroPython (BBC micro:bit)** instead of the default Python 3.7 (Everything is pre-packaged, so you don't have to worry about installing an extension or anything like that)
 4. Press the green arrow button on the top to compile the code and push it into your microbit board; make sure the right port is selected for Serial communication between your computer and the microcontroller
-5. Now, last but not least, go to the **Extensions** page on the official website of [**ElectronVisualized**](https://electronvisual.org), and press the "Communicate with micro:bit" button
+5. Now, last but not least, go to the **Extensions** page on the official website of [**ElectronVisualized**](https://electronvisual.org), and press the "**Communicate with micro:bit**" button
